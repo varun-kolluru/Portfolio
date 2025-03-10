@@ -9,7 +9,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="relative bg-[#000319] text-white">
+    <main className="relative bg-[#000319] text-white overflow-hidden">
       <Navbar />
       <div id="about">
         <About />
