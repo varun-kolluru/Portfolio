@@ -6,7 +6,6 @@ import ColourfulText from "@/components/ui/colourful-text";
 export function About() {
   return (
     <div className="pb-10">
-      <Spotlight/>
       <div className="hidden md:block"><Spotlight/></div>
       <div className="hidden md:block"><Spotlight/></div>
       <div className="flex flex-col justify-center items-center py-16 md:py-32 text-center">
