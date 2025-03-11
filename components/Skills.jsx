@@ -51,7 +51,6 @@ export function Skills() {
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">Dimensionality reduction</p>
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">In depth Math behind ML algorithms</p>
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">TensorFlow</p>
-            <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">DeepLearning</p>
             </div>
         </div>
       ),

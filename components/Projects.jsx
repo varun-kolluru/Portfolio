@@ -45,7 +45,7 @@ export const projects = [
     title: "UberFare Prediction",
     description:
       "",
-    link: "https://github.com/varun-kolluru/uber_fare_Ppurpleiction_mobile_app",
+    link: "https://github.com/varun-kolluru/uber_fare_Prediction_mobile_app",
   },
   {
     title: "Sentiment Analysis model performace Analysis",

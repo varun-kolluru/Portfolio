@@ -31,7 +31,7 @@ export const Timeline = ({
       ref={containerRef}>
       <div className="max-w-7xl mx-auto pt-10 px-4 md:px-8 lg:px-10">
         <p className="text-2xl md:text-4xl font-bold">
-          Proffesional Work <span className="text-purple-400">Experience</span>
+          Professional Work <span className="text-purple-400">Experience</span>
         </p>
         <p
           className=" text-sm md:text-base">
