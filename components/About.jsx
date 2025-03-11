@@ -8,6 +8,7 @@ export function About() {
     <div className="pb-10">
       <div className="hidden md:block"><Spotlight/></div>
       <div className="hidden md:block"><Spotlight/></div>
+      <div className="hidden md:block"><Spotlight/></div>
       <div className="flex flex-col justify-center items-center py-16 md:py-32 text-center">
         <p className="text-xs md:text-sm">Made with NEXT.JS</p>
         <p className="text-2xl md:text-6xl font-bold">Hey Everyone,</p>
