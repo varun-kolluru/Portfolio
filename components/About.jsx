@@ -26,7 +26,6 @@ export function About() {
         </p>
         <h1 className="font-bold text-2xl md:text-4xl py-3 mt-3"> <span className="text-purple-400">Education</span></h1>
         <p>Computer Science and Engineering at Gandhi Institute of Technology and Management (2019 - 2023)</p>
-        <p>CGPA: 8.77 / 10</p>
       </div>
 
     </div>
