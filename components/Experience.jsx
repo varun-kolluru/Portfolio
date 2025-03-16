@@ -37,7 +37,8 @@ export function Experience() {
     },
   ];
   return (
-    (<div className="w-full bg-[#000319]">
+    (
+    <div className="w-full bg-[#000319]">
       <Timeline data={data} />
     </div>)
   );

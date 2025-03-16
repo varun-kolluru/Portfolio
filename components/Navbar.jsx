@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,12 +22,15 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <div className="lg:hidden">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="focus:outline-none"
-          >
-            {isOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
+        <motion.button
+      onClick={() => setIsOpen(!isOpen)}
+      className="focus:outline-none"
+      initial={{ rotate: 0 }}
+      animate={{ rotate: isOpen ? 180 : 0 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+    >
+      {isOpen ? <X size={28} /> : <Menu size={28} />}
+    </motion.button>
         </div>
 
         {/* Desktop Menu */}

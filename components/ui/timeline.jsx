@@ -41,6 +41,13 @@ export const Timeline = ({
       <div ref={ref} className="relative max-w-7xl mx-auto">
       {data.map((item, index) => (
         <div key={index} className="pt-8 md:pt-12">
+        <motion.div         initial={{ opacity: 0.5, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.3,
+          duration: 0.8,
+          ease: "easeInOut",
+        }}>
           <div className="flex ml-2.5 md:ml-8 items-start">
             <div className="relative top-1 flex-shrink-0 size-5 mx-1.5 rounded-full z-40 bg-white" />
 
@@ -62,6 +69,7 @@ export const Timeline = ({
               </ul>
             </div>
           </div>
+          </motion.div>
         </div>
       ))}
 

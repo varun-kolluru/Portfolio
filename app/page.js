@@ -6,7 +6,6 @@ import { Projects } from "@/components/Projects";
 import LampDemo from "@/components/ui/lamp";
 import Navbar from "@/components/Navbar";
 
-
 export default function Home() {
   return (
     <>
@@ -15,9 +14,11 @@ export default function Home() {
         <div id="about">
           <About />
         </div>
+
         <div id="skills">
           <Skills />
         </div>
+
         <div id="experience">
           <Experience />
         </div>
