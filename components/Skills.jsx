@@ -9,7 +9,7 @@ export function Skills() {
       value: "Languages",
       content: (
         <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-2 text-xl md:text-xl text-white bg-gradient-to-br from-purple-500 to-purple-500">
+          className="w-full overflow-hidden relative h-full rounded-2xl p-2 text-xl md:text-xl text-white bg-purple-500">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">Python</p>
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">SQL</p>
@@ -25,7 +25,7 @@ export function Skills() {
       value: "Web Dev",
       content: (
         <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-2xl text-white bg-gradient-to-br from-purple-500 to-purple-500">
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-2xl text-white bg-purple-500">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">HTML</p>
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">Tailwind CSS</p>
@@ -43,7 +43,7 @@ export function Skills() {
       value: "ML",
       content: (
         <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl text-white bg-gradient-to-br from-purple-500 to-purple-500">
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl text-white bg-purple-500">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">Pandas, Numpy, math.plot.lib</p>
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">Regression, Classification algorithms</p>
@@ -59,7 +59,7 @@ export function Skills() {
       title: "Other tools/technologies",
       value: "Other tools/technologies",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl text-white bg-gradient-to-br from-purple-500 to-purple-500">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl text-white bg-purple-500">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">AWS (EC2,S3,redshift,RDS,Elastic Cache)</p>
             <p className="bg-white/20 p-2 rounded text-sm font-bold text-center">Git/GitHub</p>
@@ -79,7 +79,7 @@ export function Skills() {
     (
     <div
       className="h-[25rem] md:h-[20rem] [perspective:1000px] relative b flex flex-col mx-auto items-start justify-start mt-15 mb-30 px-4 md:px-64">
-      <p className="pb-8 font-bold text-2xl md:text-4xl">My <span className=" text-purple-400">Skills</span></p>
+      <p className="pb-8 font-bold text-2xl md:text-4xl">My <span className=" text-purple-300">Skills</span></p>
       <Tabs tabs={tabs} />
     </div>)
   );

@@ -6,7 +6,7 @@ export function Projects() {
     (
     <div className="mt-30 ">
         <p className="flex justify-center text-2xl md:text-4xl font-bold">Personal 
-            <span className="text-purple-400 mx-2">Projects</span>
+            <span className="text-purple-300 mx-2">Projects</span>
         </p>
         <p className="flex justify-center text-sm pt-10">(click on cards for GitHub code)</p>
     <div className="max-w-5xl mx-auto px-8">

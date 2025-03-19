@@ -108,7 +108,7 @@ const Slide = ({
           </div>
 
           <div className="flex justify-center pt-5">
-          <a href={btn_src} className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-400 font-medium rounded-lg text-sm px-2 py-3 md:px-4 md:py-6 focus:outline-none">{btn_title}</a>
+          <a href={btn_src} className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-2 py-3 md:px-4 md:py-6 focus:outline-none">{btn_title}</a>
           </div>
         </article>
       </li>
@@ -122,7 +122,7 @@ const CarouselControl = ({
 }) => {
   return (
     <button
-      className={`w-10 h-10 flex items-center mx-2 justify-center bg-neutral-200 border-3 border-transparent rounded-full focus:border-purple-400 focus:outline-none hover:-translate-y-0.5 active:translate-y-0.5 transition duration-200 ${
+      className={`w-10 h-10 flex items-center mx-2 justify-center bg-neutral-200 border-3 border-transparent rounded-full focus:border-purple-300 focus:outline-none hover:-translate-y-0.5 active:translate-y-0.5 transition duration-200 ${
         type === "previous" ? "rotate-180" : ""
       }`}
       onClick={handleClick}>

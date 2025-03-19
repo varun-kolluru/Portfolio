@@ -35,12 +35,12 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex space-x-6">
-          <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="hover:text-purple-400">About</a>
-          <a href="#skills" onClick={(e) => handleScroll(e, 'skills')} className="hover:text-purple-400">Skills</a>
-          <a href="#experience" onClick={(e) => handleScroll(e, 'experience')} className="hover:text-purple-400">Experience</a>
-          <a href="#achievements" onClick={(e) => handleScroll(e, 'achievements')} className="hover:text-purple-400">Achievements</a>
-          <a href="#projects" onClick={(e) => handleScroll(e, 'projects')} className="hover:text-purple-400">Projects</a>
-          <a href="#connect" onClick={(e) => handleScroll(e, 'connect')} className="hover:text-purple-400">Connect</a>
+          <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="hover:text-purple-300">About</a>
+          <a href="#skills" onClick={(e) => handleScroll(e, 'skills')} className="hover:text-purple-300">Skills</a>
+          <a href="#experience" onClick={(e) => handleScroll(e, 'experience')} className="hover:text-purple-300">Experience</a>
+          <a href="#achievements" onClick={(e) => handleScroll(e, 'achievements')} className="hover:text-purple-300">Achievements</a>
+          <a href="#projects" onClick={(e) => handleScroll(e, 'projects')} className="hover:text-purple-300">Projects</a>
+          <a href="#connect" onClick={(e) => handleScroll(e, 'connect')} className="hover:text-purple-300">Connect</a>
         </div>
       </div>
 
@@ -48,12 +48,12 @@ const Navbar = () => {
       {isOpen && (
         <div className="lg:hidden bg-[#0a192f] border-t border-gray-700 py-4">
           <div className="flex flex-col items-center space-y-4">
-            <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="hover:text-purple-400">About</a>
-            <a href="#skills" onClick={(e) => handleScroll(e, 'skills')} className="hover:text-purple-400">Skills</a>
-            <a href="#experience" onClick={(e) => handleScroll(e, 'experience')} className="hover:text-purple-400">Experience</a>
-            <a href="#achievements" onClick={(e) => handleScroll(e, 'achievements')} className="hover:text-purple-400">Achievements</a>
-            <a href="#projects" onClick={(e) => handleScroll(e, 'projects')} className="hover:text-purple-400">Projects</a>
-            <a href="#connect" onClick={(e) => handleScroll(e, 'connect')} className="hover:text-purple-400">Connect</a>
+            <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="hover:text-purple-300">About</a>
+            <a href="#skills" onClick={(e) => handleScroll(e, 'skills')} className="hover:text-purple-300">Skills</a>
+            <a href="#experience" onClick={(e) => handleScroll(e, 'experience')} className="hover:text-purple-300">Experience</a>
+            <a href="#achievements" onClick={(e) => handleScroll(e, 'achievements')} className="hover:text-purple-300">Achievements</a>
+            <a href="#projects" onClick={(e) => handleScroll(e, 'projects')} className="hover:text-purple-300">Projects</a>
+            <a href="#connect" onClick={(e) => handleScroll(e, 'connect')} className="hover:text-purple-300">Connect</a>
           </div>
         </div>
       )}

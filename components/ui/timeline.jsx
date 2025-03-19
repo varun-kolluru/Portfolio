@@ -31,7 +31,7 @@ export const Timeline = ({
       ref={containerRef}>
       <div className="max-w-7xl mx-auto pt-10 px-4 md:px-8 lg:px-10">
         <p className="text-2xl md:text-4xl font-bold">
-          Professional Work <span className="text-purple-400">Experience</span>
+          Professional Work <span className="text-purple-300">Experience</span>
         </p>
         <p
           className=" text-sm md:text-base">
@@ -53,10 +53,10 @@ export const Timeline = ({
 
             <div>
               <div className="flex">
-              <p className="text-xl font-bold md:text-2xl text-purple-400">{item.company}</p>
+              <p className="text-xl font-bold md:text-2xl text-purple-300">{item.company}</p>
                 {item.unpaid && (<p className="ml-2">(unpaid internship)</p>)}
                 {item.certificate && (
-                 <a href={item.certificate} className="ml-4 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-400 font-medium rounded-lg text-sm px-2 py-1 focus:outline-none">certificate</a>
+                 <a href={item.certificate} className="ml-4 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-2 py-1 focus:outline-none">certificate</a>
                   )}
               </div>
               <span className="text-xl font-bold text-white">
@@ -83,7 +83,7 @@ export const Timeline = ({
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-400 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full" />
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-300 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full" />
         </div>
       </div>
     </div>

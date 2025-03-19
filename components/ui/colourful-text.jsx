@@ -6,7 +6,7 @@ export default function ColourfulText({
   text
 }) {
   const colors = [
-    "purple-400"
+    "purple-300"
   ];
 
   const [currentColors, setCurrentColors] = React.useState(colors);

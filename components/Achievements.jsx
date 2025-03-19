@@ -45,7 +45,7 @@ export function Achievements() {
           duration: 1,
           ease: "easeInOut",
         }}>
-        <div className="flex justify-center items-center py-10"><p className="font-bold text-2xl md:text-4xl text-purple-400"> Achievements</p></div>
+        <div className="flex justify-center items-center py-10"><p className="font-bold text-2xl md:text-4xl text-purple-300"> Achievements</p></div>
       <Carousel slides={slideData} />
       </motion.div>
     </div>)
