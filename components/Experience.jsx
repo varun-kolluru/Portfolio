@@ -16,10 +16,10 @@ export function Experience() {
       role:"Data Engineer Intern",
       duration:"Jan 2023 - Jun 2023",
       points:[
-        "Automated MLOps Pipeline for a 20%increase in data utilization and storage space savings in AWS S3.",
-        "Collected metadata for 470 load and extract jobs through web scraping using Python/Selenium, creating asheet utilized by the BI (Business Intelligence) team for analysis tasks.",
-        "Improved performance of load jobs by optimizing 5purpleshifttables, purpleucing storage space by 10-15%.",
-        "Migrated8 tables, facilitating the deprecation of the purpleshift database, utilizing ETLtools and SQL,Pandas to track those tables."
+        "Built and automated MLOps Pipeline using Airflow, which is used for estimating delivery date of orders and Optimized S3 storage using python scripts.",
+        "WebScrapped meta data of 470 ETL jobs using Python/Selenium, creating a sheet utilized by the BI (Business Intelligence) team for analysis tasks.",
+        "Improved performance of load jobs by optimizing 5 Redshift tables, reducing storage space by 10-15%.",
+        "Migrated 8 tables, facilitating the deprecation of the Redshift database, utilizing ETLtools and SQL,Pandas to track those tables."
         ]
 
     },
@@ -31,7 +31,7 @@ export function Experience() {
       points:[
         "Trained on python ML libraries under Corporate Mentors",
         "Worked on data analysis and visualization on their company data using python ",
-        "created a regression model to ppurpleict the no of enrollments for future batches."
+        "created a spam mail classifier model which gave an accuracy of 98% on test set."
         ]
 
     },

@@ -1,6 +1,7 @@
 "use client";
 
 import { Tabs } from "@/components/ui/tabs";
+import { motion } from 'framer-motion';
 
 export function Skills() {
   const tabs = [
@@ -77,11 +78,21 @@ export function Skills() {
 
   return (
     (
+    <motion.div         initial={{ opacity: 0.5, y: 100 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{
+      delay: 0.3,
+      duration: 0.8,
+      ease: "easeInOut",
+    }}>
+    
     <div
       className="h-[25rem] md:h-[20rem] [perspective:1000px] relative b flex flex-col mx-auto items-start justify-start mt-15 mb-30 px-4 md:px-64">
       <p className="pb-8 font-bold text-2xl md:text-4xl">My <span className=" text-purple-300">Skills</span></p>
       <Tabs tabs={tabs} />
-    </div>)
+    </div>
+    </motion.div>
+    )
   );
 }
 
