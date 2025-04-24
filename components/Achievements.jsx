@@ -57,7 +57,7 @@ export function Achievements() {
     <motion.div initial={{opacity:0.5, scale:0.5, transform: "translateX(-200px)"}} whileInView={{opacity: 1 , scale:1, transform: "translateX(0px)" }} transition={{duration:4, type: "spring"}}>
         <h1 className="font-bold text-2xl md:text-4xl py-3 mt-3">Achievements in <span className="text-purple-300">Academics</span></h1>
         <ul className="list-disc ml-4">
-          <li>All India Rank 535 in GATE 2025 Data Science and Artificial Intelligence</li>
+          <li>All India Rank 535 (99.06 percentile) in GATE 2025 Data Science and Artificial Intelligence</li>
           <li>Qualified GATE 2025 Computer Science</li>
           <li>Qualified JEE mains 2019 with 93 percentile</li>
         </ul>
